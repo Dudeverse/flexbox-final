@@ -1,6 +1,94 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    border-style: dashed;
+}
+
+.header {
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 24px;
+    border-style: dashed;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+}
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.awesome {
+    border-style: dashed;
+}
+button#hero {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 8px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    border-style: none;
+}
+
+.awesome-pic {
+    display: flex;
+    width: 400px;
+    height: 200px;
+}
+
+
+.title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px ;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding-bottom : 32px ;
+    gap: 32px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882f6;
+    border-radius: 15px;
+}
+
+.info {
+    max-width: 200px;
+    text-align: center;
+}
+.quote {
+    background-color: #e5e7eb;
+    border-style: dashed;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+    color: #1f2937;
+    padding: 100px;
+
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 16px;
+    border-style: dashed;
 }
