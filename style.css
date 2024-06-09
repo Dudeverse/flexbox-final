@@ -1,9 +1,10 @@
+/* Full body */
 body {
     display: flex;
     flex-direction: column;
     border-style: dashed;
 }
-
+/* ---------------header-------------------------*/
 .header {
     background-color: #1f2937;
     color: #f9faf8;
@@ -28,10 +29,11 @@ a {
     text-decoration: none;
     color: #f9faf8;
 }
-
+/*--------------MODAL-1(TODO)--------------------------*/
 .awesome {
     border-style: dashed;
 }
+
 button#hero {
     background-color: #3882f6;
     color: #f9faf8;
@@ -47,6 +49,7 @@ button#hero {
     height: 200px;
 }
 
+/*--------------INFORMATION SECTION--------------------------*/
 
 .title {
     font-size: 36px;
@@ -75,6 +78,9 @@ img {
     max-width: 200px;
     text-align: center;
 }
+
+/*--------------QUOTE--------------------------*/
+
 .quote {
     background-color: #e5e7eb;
     border-style: dashed;
@@ -85,6 +91,12 @@ img {
     padding: 100px;
 
 }
+
+/*--------------MODAL-2 (TODO)--------------------------*/
+
+
+
+/*--------------FOOTER(TODO)--------------------------*/
 
 .footer {
     background-color: #1f2937;
