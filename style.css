@@ -165,7 +165,6 @@ button#hero2 {
     background-color: #1f2937;
     color: #f9faf8;
     font-size: 16px;
-    border-style: dashed;
     display: flex;
     flex-direction: column;
     justify-content: center;
