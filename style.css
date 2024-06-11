@@ -2,23 +2,25 @@
 body {
     display: flex;
     flex-direction: column;
-    border-style: dashed;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 /* ---------------header-------------------------*/
 .header {
     background-color: #1f2937;
     color: #f9faf8;
     font-size: 24px;
-    border-style: dashed;
+    font-weight: bold;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 160px;
-    padding-right: 160px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .links {
     display: flex;
+    font-weight: lighter;
     gap: 16px;
 }
 ul {
@@ -31,9 +33,32 @@ a {
 }
 /*--------------MODAL-1(TODO)--------------------------*/
 .awesome {
-    border-style: dashed;
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    padding: 150px 200px;
+    justify-content: space-between;
+    gap: 200px;
 }
 
+.awesome-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.awesome-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.subtext {
+    font-size: 18px;
+    color:#e5e7eb;
+
+}
 button#hero {
     background-color: #3882f6;
     color: #f9faf8;
@@ -45,8 +70,11 @@ button#hero {
 
 .awesome-pic {
     display: flex;
-    width: 400px;
-    height: 200px;
+    height: 210px;
+    width: 450px;
+    border: none;
+    border-radius: 0;
+    flex-shrink: 0;
 }
 
 /*--------------INFORMATION SECTION--------------------------*/
@@ -83,24 +111,64 @@ img {
 
 .quote {
     background-color: #e5e7eb;
-    border-style: dashed;
     font-style: italic;
     font-weight: lighter;
     font-size: 36px;
     color: #1f2937;
-    padding: 100px;
+    padding: 100px 200px;
 
+}
+
+.author {
+    font-weight: bold;
+    text-align: end;
 }
 
 /*--------------MODAL-2 (TODO)--------------------------*/
 
+.modal {
+    background: white;
+    border-radius: 10px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 40px 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    gap: 120px;
+}
 
+.modal-text {
+    color: #f9faf8;
+    font-weight: bolder;
+    font-size: 24px;
+}
 
+.modal-subtext {
+    color: #f9faf8;
+}
+
+button#hero2 {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    padding: 8px 24px;
+    border-radius: 8px;
+    border: 2px solid #f9faf8;
+}
 /*--------------FOOTER(TODO)--------------------------*/
 
 .footer {
+
     background-color: #1f2937;
     color: #f9faf8;
     font-size: 16px;
     border-style: dashed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10px;
 }
